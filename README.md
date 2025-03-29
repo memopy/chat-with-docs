@@ -3,8 +3,7 @@ a rag application to chat with library docs\
 you can use the demo here : [HuggingFace Space](https://huggingface.co/spaces/mehmet0001/chat-with-docs) (the best way to use this is to run it locally since its very slow in web)
 
 # how to use
-to use this app , you need to get a api key from [OpenRouter](https://openrouter.ai/).\
-its totally free to get and use the api key.
+download all the files and then run main.py
 
 # use cases
 the best use case of this app is for unknown or new libraries or poor documentations
