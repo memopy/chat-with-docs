@@ -2,7 +2,7 @@ from openai import OpenAI
 import crawl_the_site
 import create_database
 
-api_key = "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"
+api_key = "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"
 
 start = input("enter the documentation link : ")
 limit = int(input("enter the limit for crawling (how many links before stopping) : "))
