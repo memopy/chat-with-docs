@@ -3,7 +3,7 @@ a rag application to chat with library docs\
 you can use the demo here : [HuggingFace Space](https://huggingface.co/spaces/mehmet0001/chat-with-docs) (the best way to use this is to run it locally since its very slow in web)
 
 # how to use
-first download all requirements doing  ```pip install -r requirements.txt (or the path to the requirements.txt file) ```\
+first download all requirements doing ```pip install -r requirements.txt (or the path to the requirements.txt file)```\
 download all the files and then run main.py
 
 # use cases
