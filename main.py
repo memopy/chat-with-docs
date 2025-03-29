@@ -2,7 +2,8 @@ from openai import OpenAI
 import crawl_the_site
 import create_database
 
-api_key = input("enter your OpenRouter api key : ")
+api_key = "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"
+
 start = input("enter the documentation link : ")
 limit = int(input("enter the limit for crawling (how many links before stopping) : "))
 
