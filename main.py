@@ -23,7 +23,7 @@ prompt_template = """Answer the question only according to the information provi
 while True:
     q = input("prompt : ")
 
-    results = collection.query(query_texts=[q],n_results=5)
+    results = collection.query(query_texts=[q],n_results=10)
     infos = results["documents"][0]
 
     info_text = ""
