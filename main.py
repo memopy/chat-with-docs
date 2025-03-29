@@ -13,7 +13,7 @@ collection = create_database.create_database(txt)
 
 openai_client = OpenAI(base_url="https://openrouter.ai/api/v1",api_key=api_key)
 
-prompt_template = """Answer the question only according to the information provided below. Answer only the user's question, dont give additional information.
+prompt_template = """Answer the question based only on the information provided below.Instead of directing the user to resources, answer the user using the content of the resources.And dont say anything like "Based on the provided information" etc. in the answer.Provide examples based on the users question.For example, when he says "how do i create a slash command" , provide him with an example.
 ## Information : 
 {}
 
