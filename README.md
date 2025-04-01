@@ -1,5 +1,5 @@
 # chat-with-docs
-a rag application to chat with library docs\
+a rag application that lets you chat with library docs\
 you can use the demo here : [HuggingFace Space](https://huggingface.co/spaces/mehmet0001/chat-with-docs) (the best way to use this is to run it locally since its very slow in web)
 
 # how to use
